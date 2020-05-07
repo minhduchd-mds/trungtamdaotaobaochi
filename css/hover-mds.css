@@ -1,0 +1,130 @@
+[class^='imghvr-'], [class*=' imghvr-'] {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    max-width: 100%;
+    background-color: #2266a5;
+    color: #fff;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+[class^='imghvr-'] > img, [class*=' imghvr-'] > img {
+    vertical-align: top;
+    max-width: 100%;
+}
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color: #135796;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+[class^='imghvr-'] figcaption h1, [class^='imghvr-'] figcaption h2, [class^='imghvr-'] figcaption h3, [class^='imghvr-'] figcaption h4, [class^='imghvr-'] figcaption h5, [class^='imghvr-'] figcaption h6, [class*=' imghvr-'] figcaption h1, [class*=' imghvr-'] figcaption h2, [class*=' imghvr-'] figcaption h3, [class*=' imghvr-'] figcaption h4, [class*=' imghvr-'] figcaption h5, [class*=' imghvr-'] figcaption h6 {
+    color: #ffffff;
+}
+
+[class^='imghvr-'] a, [class*=' imghvr-'] a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+[class^='imghvr-'], [class*=' imghvr-'], [class^='imghvr-']:before,
+[class^='imghvr-']:after, [class*=' imghvr-']:before, [class*=' imghvr-']:after,
+[class^='imghvr-'] *, [class*=' imghvr-'] *, [class^='imghvr-'] *:before,
+[class^='imghvr-'] *:after, [class*=' imghvr-'] *:before, [class*=' imghvr-'] *:after {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+/* imghvr-fade-*
+   ----------------------------- */
+[class^='imghvr-fade'] figcaption, [class*=' imghvr-fade'] figcaption {
+    opacity: 0;
+}
+
+[class^='imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover > img {
+    opacity: 0;
+}
+
+[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption {
+    opacity: 1;
+}
+
+[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+/* imghvr-zoom-out-up
+   ----------------------------- */
+.imghvr-zoom-out-up:hover > img, .imghvr-zoom-out-up.hover > img {
+    -webkit-animation: imghvr-zoom-out-up 0.4025s linear;
+    -moz-animation: imghvr-zoom-out-up 0.4025s linear;
+    animation: imghvr-zoom-out-up 0.4025s linear;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes imghvr-zoom-out-up {
+    50% {
+        -webkit-transform: scale(0.8) translateY(0%);
+        -moz-transform: scale(0.8) translateY(0%);
+        -ms-transform: scale(0.8) translateY(0%);
+        -o-transform: scale(0.8) translateY(0%);
+        transform: scale(0.8) translateY(0%);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(0.8) translateY(-150%);
+        -moz-transform: scale(0.8) translateY(-150%);
+        -ms-transform: scale(0.8) translateY(-150%);
+        -o-transform: scale(0.8) translateY(-150%);
+        transform: scale(0.8) translateY(-150%);
+        opacity: 0.5;
+    }
+}
+
+@keyframes imghvr-zoom-out-up {
+    50% {
+        -webkit-transform: scale(0.8) translateY(0%);
+        -moz-transform: scale(0.8) translateY(0%);
+        -ms-transform: scale(0.8) translateY(0%);
+        -o-transform: scale(0.8) translateY(0%);
+        transform: scale(0.8) translateY(0%);
+        opacity: 0.5;
+    }
+    100% {
+        -webkit-transform: scale(0.8) translateY(-150%);
+        -moz-transform: scale(0.8) translateY(-150%);
+        -ms-transform: scale(0.8) translateY(-150%);
+        -o-transform: scale(0.8) translateY(-150%);
+        transform: scale(0.8) translateY(-150%);
+        opacity: 0.5;
+    }
+}

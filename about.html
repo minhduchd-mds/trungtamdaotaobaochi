@@ -1,0 +1,647 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Trungtamdaotaobaochi Education system">
+    <meta name="keywords" content="Trung tâm đào tạo báo chí,Trung tâm bồi dưỡng,Thành công trong tầm tay,Khóa Học,Bồi Dưỡng">
+    <meta name="author" content="MDS dev">
+    <meta name="robots" content="index-2, follow">
+    <link rel="icon" type="image/png" href="images/ctc.png">
+    <title>Trung Tâm Đào Tạo Báo Chí | Bồi Dưỡng Nghiệp vụ Báo Chí </title>
+    <link rel="canonical" href="" />
+    <link rel="icon" type="image/png" href="#"/>
+    <!------Bootstrap------>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!------Style------>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about/about.css">
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font-Rotobo ,Lato ,Oswald,Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Raleway:400,300,500,600,700,800|Roboto" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet"  href="css/navi.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--[if lt IE 9]
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" >
+<!-- Header -->
+<header id="home">
+    <div id="navbar-full">
+        <div id="navbar">
+            <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top animated zoomIn animation-delay-12" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">CTC</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                                    Language
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="images/lang/DE.png"> Deutsch</a></li>
+                                    <li><a href="english.html"><img src="images/lang/GB.png"> English(UK)</a></li>
+                                    <li><a href="#"><img src="images/lang/FR.png"> Français</a></li>
+                                    <li><a href="#"><img src="images/lang/RO.png"> Română</a></li>
+                                    <li><a href="#"><img src="images/lang/IT.png"> Italiano</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left navbar-search-form" role="search">
+                            <div class="form-group">
+                                <input type="text" value="" class="form-control" placeholder="Search...">
+                            </div>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="active">Trang Chủ</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Giới Thiệu<b class="caret"></b></a>
+                                <div  class="dropdown-content">
+                                    <a href="about.html">Cơ Cấu Tổ Chức</a>
+                                    <a href="AboutUs0.html">Đội Ngũ Giảng Viên</a>
+                                    <a href="AboutUs3.html">Đối Tác </a>
+                                    <a href="AboutUs2.html">Chức Năng Nhiệm Vụ</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="course.html">Các Khóa Học</a>
+                            </li>
+                            <li><a href="tintuc.html">Tin Tức </a></li>
+                            <li><a href="tailieu.html">Tài Liệu</a></li>
+                            <li><button href="#" class="btn btn-bottom  btn-login"  data-toggle="modal" data-target="#loginModal">Đăng Nhập</button></li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="blurred-container">
+                <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active" style="background-image: url(images/slider/1.jpg);">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Trung Tâm Đào Tạo <span>Báo Chí </span></h1>
+                                <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+                                <a data-scroll class="btn btn-start animated fadeInUpBig"  data-toggle="modal" data-target="#myModal">Đăng Kí Ngay</a>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url(images/slider/2.jpg)">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Học Là Trải Nghiệm Với Thực Tiễn  <span>CTC</span></h1>
+                                <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+                                <a data-scroll class="btn btn-start animated fadeInUpBig" data-toggle="modal" data-target="#myModal">Đăng Kí Ngay</a>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url(images/slider/3.jpg)">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Học Viên Đạt Được Nhiều Thành Công  <span></span></h1>
+                                <p class="animated fadeInRightBig">Bootstrap - Responsive Design - Retina Ready - Parallax</p>
+                                <a data-scroll class="btn btn-start animated fadeInUpBig" data-toggle="modal" data-target="#myModal">Đăng Kí Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                    <a id="tohash" ><i class="fa fa-angle-down"></i></a>
+                </div>
+                <!-- Modal Core -->
+                <!-----Form login------>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="smyModalLabel">Đăng Ký Khóa Học</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-group" method="post" action="index.html">
+                                    <div class="form-section row">
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="name" id="name" value="" class="form-control input-sm" placeholder="Họ và tên">
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="phone" id="phone" value="" class="form-control input-sm auto_init" placeholder="Số điện thoại">
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="email1" id="email1" value="" class="form-control input-sm" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-secticon row">
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="ngaysinh" id="ngaysinh" value="" class="form-control input-sm" placeholder="Ngày sinh (ngày/tháng/năm)">
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="address" id="address" value="" class="form-control input-sm" placeholder="Nơi ở hiện tại">
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <input type="text" name="donvi" id="donvi" value="" class="form-control input-sm" placeholder="Trường/Đơn vị công tác">
+                                        </div>
+                                    </div>
+                                    <div class="form-section row">
+                                        <div class="col-sm-4 col-xs-4">
+                                            <select class="form-control">
+                                                <option value="0" label="-- Chọn cơ sở --">-- Chọn cơ sở --</option>
+                                                <option value="1" label="Cơ sở: Số 30 Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, HN">Cơ sở: Số 30 Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, HN</option>
+                                                <option value="2" label="Cơ sở: Số 8 Tôn Thất Thuyết,Cầu Giấy, HN">Cơ sở: Số 8 Tôn Thất Thuyết,Cầu Giấy, HN</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <select class="form-control">
+                                                <option value="0" label="-- Chọn khóa các học --">-- Chọn khóa các học --</option>
+                                                <option value="1" label="Khóa học Ảnh báo chí">Khóa học Ảnh Báo Chí</option>
+                                                <option value="2" label="Khóa học Nghiệp vụ báo chí truyền thông">Khóa học Nghiệp vụ Báo Chí Truyền Thông</option>
+                                                <option value="3" label="Khóa học Quay Phim Chuyên Nghiệp">Khóa học Quay Phim Chuyên Nghiệp</option>
+                                                <option value="4" label="Khóa học Biên Tập - Biên Kịch">Khóa học Biên Tập - Biên Kịch</option>
+                                                <option value="5" label="Khóa học Phát Thanh Viên - MC">Khóa học Phát Thanh Viên - MC</option>
+                                                <option value="6" label="Khóa học Xác Minh Thông Tin">Khóa học Xác Minh Thông Tin</option>
+                                                <option value="7" label="Khóa học Đạo Diễn">Khóa học Đạo Diễn</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-4">
+                                            <select class="form-control">
+                                                <option value="0" label="-- Khung giờ học --">-- Khung giờ học --</option>
+                                                <option value="Sáng" label="Sáng">Sáng</option>
+                                                <option value="Chiều" label="Chiều">Chiều</option>
+                                                <option value="Tối" label="Tối">Tối</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Thoát</button>
+                                <button type="submit" class="btn btn-info btn-simple">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----End Form login------>
+                <!----------login--------->
+                <div class="modal fade" id="loginModal" tabindex="-2" role="dialog" aria-labelledby="login-tile" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div class="header header-primary text-center">
+                                    <h4 class="card-title">Đăng Nhập</h4>
+                                    <div class="social-line">
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="description text-center">Hoặc Đăng Nhập</p>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form"  action="index.html">
+                                    <div class="card-content">
+
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <div class="form-group is-empty"><input type="text" class="form-control" placeholder="First Name..."><span class="material-input"></span></div>
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <div class="form-group is-empty"><input type="text" class="form-control" placeholder="Email..."><span class="material-input"></span></div>
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <div class="form-group is-empty"><input type="password" placeholder="Password..." class="form-control"><span class="material-input"></span></div>
+                                        </div>
+                                    </div>
+                                    <br><br>
+                                    <div class="footer text-center">
+                                        <a href="#" class="btn btn-primary btn-simple btn-wd btn-lg">Đăng Nhập</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------end login----->
+            </div>
+        </div><!--  end navbar -->
+    </div> <!-- end menu-dropdown -->
+</header>
+<!-- About us Section-->
+<section id="About">
+    <div class="container">
+        <div class="Aboutus-container">
+            <!----Co cau to chuc----->
+            <div class="head_title text-center">
+                <h2>Cơ Cấu Tổ Chức</h2>
+                <div class="separator_auto"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile1-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span>Đỗ Minh Đức</span></p>
+                                <p><b>- Chức danh :</b><br> <span>Giám Đốc Trung Tâm</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 animated zoomIn animation-delay-12">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile2-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Hoa Ta</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Phó giám đốc - đào tạo</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInRightBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile3-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Nguyễn Việt Hùng</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Phó giám đốc - đối ngoại</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!----End Co cau to chuc----->
+            <!----Phong to chuc----->
+                <div class="title-h5 text-center">
+                    <h2>Phòng Tổ Chức</h2>
+                    <div class="separator_auto"></div>
+                </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 animated fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile4-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Tùng Kận</span></p>
+                                <p><b>- Chức danh :</b><br><br> <span> Nhân viên tổ chức -  Quốc tế</span></span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 animated fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile5-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Nguyễn Bá Danh</span></p>
+                                <p><b>- Chức danh :</b><br><br> <span> Nhân viên tổ chức <br>-  Khu vực phía Bắc</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 animated fadeInRightBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile6-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Mai Trang</span></p>
+                                <p><b>- Chức danh :</b><br><br> <span> Nhân viên tổ chức <br>-  Khu vực phía Nam</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile7-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Minh Kem Kem</span></p>
+                                <p><b>- Chức danh :</b><br><br> <span> Nhân viên đối ngoại</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!----End Phong to chuc----->
+            <!----Phong hanh chinh----->
+                <div class="title-h5 text-center">
+                    <h2>Phòng hành chính</h2>
+                    <div class="separator_auto"></div>
+                </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInUpBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile8-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Lê Ngọc Tú</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Nhân viên lễ tân</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInUpBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile9-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Lê Ngọc Tấn</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Nhân viên tạp vụ</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 animated fadeInUpBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile10-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Hoàng Đã Đạt</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Nhân viên bảo vệ</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!----End Phong hanh chinh----->
+            <!----Cac chuc vu khac----->
+                <div class="title-h5 text-center">
+                    <h2>Các chức vụ khác</h2>
+                    <div class="separator_auto"></div>
+                </div>
+            <div class="row">
+                <div class="col-md-4 fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile11-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Nguyễn Văn Linh</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Error</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-offset-4 fadeInLeftBig">
+                    <div class="aboutus-box">
+                        <div class="aboutus-box-img">
+                            <img src="images/about/profile12-min.png" title="" class="img-responsive">
+                        </div>
+                        <div class="aboutus-box-text">
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Họ và tên :</b><br> <span> Đông Tà</span></p>
+                                <p><b>- Chức danh :</b><br> <span> Error</span></p><br>
+                            </div>
+                            <div class="aboutus-box-text-p">
+                                <p><b>- Nhiệm vụ :</b></p>
+                                <p class="fix-text">Welcome to the English-language Wiktionary, a collaborative project to produce a free-content multilingual dictionary. It aims to describe all words of all languages using definitions and descriptions in English.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="Partners" class="Partners">
+    <div class="container">
+        <div class="row">
+            <!-- Liên Kết Quốc Tế  -->
+            <div class="ct-row-03">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/1.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/2.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/3.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/4.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/5.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/6.jpg">
+                </div>
+
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/7.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/8.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/9.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/10.jpg">
+                </div>
+            </div>
+        </div><!-- END Liên Kết Quốc Tế  -->
+    </div>
+</section><!-- End Partners -->
+<!-- scroll up-->
+<div  class="scrollup"  style="display: block;">
+    <a href="#navbar"><i class="fa fa-chevron-up"></i></a>
+</div>
+<!-- End scroll up-->
+<!-- Footer -->
+<footer>
+    <div class="footer-widget-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div  class="container-wrapper-widget_text">
+                        <div class="widget-title">
+                            <h4>Hãy Để Chúng Tôi Đồng Hành Cùng Bạn !</h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="textwidget">
+                            <p>Công tác đào tạo, bồi dưỡng nâng cao nghiệp vụ báo chí cho nhà báo Việt Nam trong những năm qua rất chú trọng . Không chỉ cơ quan quản lý nhà nước về báo chí dành thời gian cho công tác này mà hầu hết các cơ quan báo chí cũng rất quan tâm về hoạt động đào tạo cho các phóng viên, nhà báo. </p>
+                            <p> Để báo chí Việt Nam phát triển cả số lượng và chất lượng, nhu cầu đào tạo báo chí vẫn không ngừng được đặt ra.Vậy hướng phát triển mới trong đào tạo báo chí Việt Nam những năm tới sẽ như thế nào? Sau đây là ý kiến của những nhà báo có kinh nghiệm xuất phát nhu cầu tại cơ quan báo chí của mình đưa ra cùng thảo luận.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-menu">
+                        <div class="widget-title">
+                            <h4>Ứng Dụng </h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="footer-menu-container">
+                            <ul>
+                                <li><a href="#">Boostrap</a></li>
+                                <li><a href="#">Javar</a></li>
+                                <li><a href="#">CTC Mobile</a></li>
+                                <li><a href="#">CTC App</a></li>
+                                <li><a href="#">Medscape</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h4>Liên Hệ </h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="textwidget">
+                            <p>
+                                <span class="fa fa-phone" aria-hidden="true"></span> Tel: 04.320.555<br>
+                                <span class="fa fa-mobile" aria-hidden="true"></span> Mobile: 096.999.888<br>
+                                <span class="fa fa-envelope" aria-hidden="true"></span> E-mail: ctc@fpt.edu.vn
+                            </p>
+                        </div>
+                        <div class="container-wrapper-subscribe-widget">
+                            <form>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-bottom">Nhận Đăng Ký</button>
+                            </form>
+                        </div>
+                        <div class="social-icons">
+                            <a class="facebook" href="https://www.facebook.com/trungtambaodaotaobaochictc"><i class="fa fa-facebook"></i></a>
+                            <a class="envelope" href="#"><i class="fa fa-envelope"></i></a>
+                            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                            <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <div class="column-left">
+                        <span>Copyright © Trung Tâm Đào Tạo Báo Chí 2017.All right reserved.Created by <a href="#">MDS</a></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                    <div class="column-right">
+                        <span>Privacy Policy , Terms &amp; Conditions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!--End  Footer -->
+<!-- Jquery -->
+<script src="js/jquery-3.2.1.min.js" rel="stylesheet"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js" rel="stylesheet"></script>
+<script src="js/gsdk-bootstrapswitch.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/conchuot.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/bootstrap-portfilter.min.js"></script>
+</body>
+</html>

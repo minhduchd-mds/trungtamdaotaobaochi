@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Trungtamdaotaobaochi Education system">
+    <meta name="keywords" content="Trung tâm đào tạo báo chí,Trung tâm bồi dưỡng,Thành công trong tầm tay,Khóa Học,Bồi Dưỡng">
+    <meta name="author" content="MDS dev">
+    <meta name="robots" content="index-2, follow">
+    <link rel="icon" type="image/png" href="images/ctc.png">
+    <title>Trung Tâm Đào Tạo Báo Chí | Bồi Dưỡng Nghiệp vụ Báo Chí </title>
+    <link rel="canonical" href="" />
+    <link rel="icon" type="image/png" href="#"/>
+    <!------Bootstrap------>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!------Style------>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Font-Rotobo ,Lato ,Oswald,Raleway -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|Raleway:400,300,500,600,700,800|Roboto" rel="stylesheet">
+    <!-- Main css -->
+    <link rel="stylesheet"  href="css/navi.css">
+    <link href="css/news/style-tintuc2.css" rel="stylesheet" type="text/css"/>
+    <link href="css/news/tintuc.css" rel="stylesheet" type="text/css"/>
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!--[if lt IE 9]
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" >
+<!-- Header -->
+<header id="home">
+    <div id="navbar-full">
+        <div id="navbar">
+            <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top animated zoomIn animation-delay-12" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index-2.html">CTC</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                                    Language
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="images/lang/DE.png"> Deutsch</a></li>
+                                    <li><a href="english.html"><img src="images/lang/GB.png"> English(UK)</a></li>
+                                    <li><a href="#"><img src="images/lang/FR.png"> Français</a></li>
+                                    <li><a href="#"><img src="images/lang/RO.png"> Română</a></li>
+                                    <li><a href="#"><img src="images/lang/IT.png"> Italiano</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left navbar-search-form" role="search">
+                            <div class="form-group">
+                                <input type="text" value="" class="form-control" placeholder="Search...">
+                            </div>
+                        </form>
+                                             <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html" class="active">Trang Chủ</a></li>
+                            <li class="dropdown">
+                                <a href="AboutUs2.html" class="dropdown-toggle active" data-toggle="dropdown">Giới Thiệu<b class="caret"></b></a>
+                                <div  class="dropdown-content">
+                                    <a href="about.html">Giới Thiệu về CTC</a>
+                                    <a href="AboutUs0.html">Đội Ngũ Giảng Viên</a>
+                                    <a href="AboutUs2.html">Chức năng - nhiệm vụ</a>
+                                    <a href="AboutUs3.html">Đối Tác </a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="course.html">Các Khóa Học<b></b></a>
+                            </li>
+                            <li><a href="tintuc.html">Tin Tức </a></li>
+                            <li><a href="tailieu.html">Tài Liệu</a></li>
+                            <li><button href="#" class="btn btn-bottom  btn-login"  data-toggle="modal" data-target="#loginModal">Đăng Nhập</button></li>
+                        </ul>
+
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <div class="blurred-container">
+                <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active" style="background-image: url(images/slider/1.jpg);">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Trung Tâm Đào Tạo <span>Báo Chí </span></h1>
+                                <p class="animated fadeInRightBig">Advanced - Credible - Creative - Professional</p>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url(images/slider/2.jpg)">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Học Là Trải Nghiệm Với Thực Tiễn  <span>CTC</span></h1>
+                                <p class="animated fadeInRightBig">Advanced - Credible - Creative - Professional</p>
+                            </div>
+                        </div>
+                        <div class="item" style="background-image: url(images/slider/3.jpg)">
+                            <div class="caption">
+                                <h1 class="animated fadeInLeftBig">Học Viên Đạt Được Nhiều Thành Công  <span></span></h1>
+                                <p class="animated fadeInRightBig">Advanced - Credible - Creative - Professional</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                    <a id="tohash" ><i class="fa fa-angle-down"></i></a>
+                </div>
+                <!-- Modal Core -->
+                <!-----Form login------>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="smyModalLabel">Đăng Ký</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group" role="form">
+                                    <input type="text" value="" placeholder="Họ Và Tên " class="form-control" />
+                                    <br>
+                                    <input type="text" value="" placeholder="Công Ty " class="form-control" />
+                                    <br>
+                                    <input type="text" value="" placeholder="Địa chỉ" class="form-control" />
+                                    <br>
+                                    <input type="text" value="" placeholder="Email hoặc Điện Thoại " class="form-control" />
+                                    <br>
+                                    <textarea class="form-control" placeholder="Lời Nhắn" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Thoát</button>
+                                <button type="button" class="btn btn-info btn-simple">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-----End Form login------>
+                <!----------login--------->
+                <div class="modal fade" id="loginModal" tabindex="-2" role="dialog" aria-labelledby="login-tile" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <div class="header header-primary text-center">
+                                    <h4 class="card-title">Đăng Nhập</h4>
+                                    <div class="social-line">
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-just-icon btn-simple">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="description text-center">Hoặc Đăng Nhập</p>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form" method="" action="index.html">
+                                    <div class="card-content">
+
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <div class="form-group is-empty"><input type="text" class="form-control" placeholder="First Name..."><span class="material-input"></span></div>
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <div class="form-group is-empty"><input type="text" class="form-control" placeholder="Email..."><span class="material-input"></span></div>
+                                        </div>
+                                        <br>
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                            <div class="form-group is-empty"><input type="password" placeholder="Password..." class="form-control"><span class="material-input"></span></div>
+                                        </div>
+                                    </div>
+                                    <br><br>
+                                    <div class="footer text-center">
+                                        <a href="#" class="btn btn-primary btn-simple btn-wd btn-lg">Đăng Nhập</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---------end login----->
+            </div>
+        </div><!--  end navbar -->
+    </div> <!-- end menu-dropdown -->
+</header>
+<!-- Section -->
+<section id="tin tuc">
+    <div class="container">
+        <!--Giới Thiệu Chung-->
+        <div class="col-lg-8 col-md-8">
+            <div class="row">
+                 <div class="col-sm-12">
+                            <div class="new-item">
+                                <h2>TOP 5 TRƯỜNG ĐÀO TẠO BÁO TRÍ TẠI ANH</h2>
+                            <hr class="color-hr">
+                            <div class="time">
+                                <i><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>12th Jun 2017 </i>
+                                <i><span class="glyphicon glyphicon-dashboard" aria-hidden="true"></span> 18:45</i>
+                                
+                            </div>
+                            <hr>
+                            <div class="news-item-conten">
+                                <h4><span> 
+                                        Anh là quốc gia nổi tiếng với ngành báo chí và truyền thông rất mạnh. Hẳn chẳng có cư dân hiện đại nào của địa cầu chưa nghe qua cái tên BBC phải không? Ngoài BBC, nước Anh còn nổi tiếng với những tập đoàn truyền thông vĩ đại, những tờ báo lớn và những nhà báo từ tự do tới chuyên trách vô cùng nổi tiếng. Từ nhu cầu nhân lực cho sự phát triển mạnh mẽ của ngành này tại nước Anh, bạn có thể hình dung ra khả năng đào tạo trong chuyên ngành báo chí của Anh tốt đến mức nào rồi chứ? Du học Anh  theo học chuyên ngành báo chí chắc chắn là sự lựa chọn tốt nhất. Chúng tôi xin giới thiệu với bạn top 5 trường đào tạo chuyên ngành báo chí truyền thông tại Vương quốc Anh dưới đây
+
+
+                        </span></h4>
+                                <div class="listNews-lienket">
+                                     <ul>
+                                        
+                                        <li><a href="tintuccon-2.html">6 việc làm ngành truyền thông và báo chí</a> </li>
+                                        <li><a href="tintuccon-3.html">Ngành truyền thông đa phương tiện là gì</a> </li>
+                                        <li><a href="tintuccon-4.html">Quy định về hỗ trợ kinh phí cho hoạt động báo chí</a> </li>
+                                        <li><a href="tintuccon-5.html">Top 5 trường đào tạo báo chí tại Anh</a> </li>
+                                    </ul>
+                                </div>
+                            </div><br><br><br>
+         
+                            </div>
+                    <div>
+                                    <div class="news-item-img">
+                                        <img src="images/tin tuc/anh4.jpg" class="img-responsive" alt="">
+                                        
+                                    </div>
+                                    
+                                       <h4><span> 1. Đại học Khoa học Kinh tế Chính trị London
+
+</span></h4>
+    <p>
+Xếp hạng thứ nhất ở Anh và thứ hai thế giới sau Đại học Wisconsin, Mỹ về đào tạo chuyên ngành truyền thông, trong đó có chương trình thạc sĩ truyền thông và báo chí toàn cầu, thạc sĩ phát triển truyền thông, báo chí, thạc sĩ truyền thông và chính trị. Các khóa học được đánh giá cao, trường tự hào là một trong những trường đại học dẫn đầu ngành này tại Anh.
+
+
+   
+                                    </p>
+                                    <h4><span>2. Đại học Thành phố London
+
+</span></h4>
+                                    <p>
+                                        Xếp hạng thứ 2 ở Anh và thứ 23 trên thế giới về ngành truyền thông và thông tin liên lạc, đào tạo cử nhân báo chí giảng dạy rất nhiều khía cạnh khác nhau của ngành và chương trình thạc sĩ chuyên ngành. Chương trình thạc sĩ bao gồm: Báo chí điều tra, Tương tác báo chí, Báo chí tài chính, Báo chí Quốc tế, Báo chí Khoa học, Báo chí Chính trị, Tạp chí Báo chí và những chuyên ngành liên quan khác.
+
+
+                                        
+                                    </p>
+                                    <h4>
+                                        <span>
+                                            3. Đại học Westminster, London
+
+
+                                        </span>
+                                                                            </h4>
+
+                                        <p>
+                                            Có trụ sở tại Thủ đô Vương quốc Anh, Đại học Westminster xếp hạng thứ 3 tại Anh và thứ 40 trên thế giới về ngành truyền thông và báo chí, đào tạo  một loạt các chương trình học cử nhân và sau đại học. Theo học tại đây, bạn có thể tốt nghiệp tấm bằng cử nhân chuyên ngành Báo chí, truyền hình hoặc sản xuất Radio, Báo chí y học hoặc Báo chí kỹ thuật số.  
+
+                                            Nếu đã tốt nghiệp cử nhân, muốn tiếp tục nâng cao các kĩ năng và kiến thức, bạn có thể chọn học thạc sĩ tại đây, hoặc trường còn đào tạo các chương trình học cao hơn nữa bao gồm: thạc sĩ báo chí đa phương tiện (Phát thanh hoặc in ấn hoặc trực tuyến), Báo chí toàn cầu, truyền thông xã hội, Kinh doanh báo chí quốc tế và các ngành có liên quan khác.   
+
+                                        </p>
+                                        
+                                     <h4>
+                                        <span>
+                                            4. Đại học Loughborough, Loughborough
+
+                                        </span>
+                                                                            </h4>
+                                        <p>
+                                              Xếp hạng thứ 4 tại Anh và thứ 48 trên thế giới về ngành truyền thông, đào tạo các chương trình cứ nhân báo chí truyền thông và báo chí văn hóa xã hội và cử nhân chuyên ngành xã hội và báo chí kĩ thuật số, ngành công nghiệp văn hóa và báo chí toàn cầu, phân tích văn hóa và báo chí.  Đại học Loughborough đặc biệt mệnh danh là môi trường đào tạo nhiều vận động viên sinh viên tài năng. Vì vậy, đây là lựa chọn tốt cho những bạn nào theo đuổi sự nghiệp báo chí thể thao.  
+
+
+                                            
+                                        </p>
+                                         <h4>
+                                        <span>
+                                            5. Đại học Cardiff, Cardiff
+
+
+                                        </span>
+                                                                            </h4>
+                                        <p>
+                                            Đại học Cardiff được xếp hạng 5 tại Anh và trong top 100 bảng xếp hạng các trường đại học thế giới. Tọa lạc tại thủ phủ xứ Wales xinh đẹp, các trường đại học cung cấp cơ hội lựa chọn đầy ấn tượng dành cho sinh viên các khóa học đại học và sau đại học về ngành báo chí. Theo học tại đây, bạn có thể nhận bằng cử nhân báo chí, báo chí và truyền thông, Văn học Anh hoặc Báo chí phương tiện và xã hội học. Các chương trình học cao hơn gồm: Thạc sĩ báo chí, phát thanh, tạp chí và báo chí quốc tế cũng như nhiều ngành khác có liên quan. Đây là trường đại học duy nhất của xứ Wales nằm trong nhóm các trường đại học hàng đầu nước Anh. 
+
+
+                                        </p>
+                                    
+
+                                </div>
+                     
+                     <div>
+                         
+                         
+                         
+                         <p style="text-align: right;"><strong>Van Hung</strong></p>
+                     </div>
+                                <!-----------dist like----------->
+                                <div class="dist-like">
+                                    <h5>Bạn có thích bài viết này ?</h5>
+                                    <button><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like </button>
+                                    <button><span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>Dist</button>
+                                </div><!-----------End dist like----------->
+                                <div class="bglinedetailshow"></div>
+                               
+                                <div class="sent-form">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"></button>
+                                            <h4 class="modal-title" id="exampleModalLabel">Ý kiến phản hồi</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                               
+                                                <div class="form-group">
+                                                    <label for="message-text" class="control-label">Message:</label>
+                                                    <textarea class="form-control" id="message-text"></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">Send message</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                 </div>
+        <div class="col-lg-4 col-md-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- Khóa học sắp tới -->
+                    <div class="incumming-course">
+                        <h4>KHÓA HỌC SẮP TỚI</h4>
+                        <li>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <img src="images/tin tuc/ảnh báo chí.jpg" alt="">
+                                </div>
+                                    <div class="timeline-body">
+                                        <p style="font-size: 20px; margin-bottom: -30px;"><a href="course-schedule.html">Khóa học “Ảnh báo chí”</a></p>
+                                        <p>Kỹ thuật và tạo hình nhiếp ảnh,các nguyên tắc chụp ảnh báo chí,thực hiện Phóng sự ảnh, Tin ảnh, Tin đồ hoạ,có cơ hội cộng tác với các cơ quan báo chí...<a href="course-schedule.html">xem thêm</a></p>
+                                    </div>
+                            </div>
+                        </li>
+                </div>
+                    <!-- END Khóa học sắp tới -->
+                    <!-- Quảng cáo -->
+                  <div class="side-headline">
+                       <div class="tittle-h3 text-center">
+                            <h2>Ảnh Báo Chí</h2>
+                        </div>
+                       <div id="myCarousel" class="carousel slide" data-ride="carousel" style="background-color: black;">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                                <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                                <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+                                <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+                                <li data-target="#myCarousel" data-slide-to="6" class=""></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item">
+                                    <img src="images/Document/gallery/1.jpeg" alt="1" style="width:100%;">
+                                </div>
+                                <div class="item">
+                                    <img src="images/Document/gallery/2.jpg" alt="2" style="width:100%;">
+                                </div>
+                                <div class="item active">
+                                    <img src="images/Document/gallery/3.jpg" alt="3" style="width:100%;">
+                                </div>
+                                <div class="item">
+                                    <img src="images/Document/gallery/4.jpg" alt="4" style="width:100%;">
+                                </div>
+                                <div class="item">
+                                    <img src="images/Document/gallery/5.jpg" alt="5" style="width:100%;">
+                                </div>
+                                <div class="item">
+                                    <img src="images/Document/gallery/6.jpg" alt="6" style="width:100%;">
+                                </div>
+                                <div class="item">
+                                    <img src="images/Document/gallery/7.jpg" alt="7" style="width:100%;">
+                                </div>
+
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" style="left: 5%"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" style="right: 5%"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                            <div class="tittle-h3 text-center">
+                                <h2>Video</h2>
+                            </div>
+                            <iframe height="300" width="100%" src="https://www.youtube.com/embed/lWg2ZFmvbkk" frameborder="0" allowfullscreen=""></iframe>
+                        </div>
+              
+                </div>
+            </div>
+        </div>
+</div></section>
+<section id="Partners" class="Partners">
+    <div class="container">
+        <div class="row">
+            <!-- Liên Kết Quốc Tế  -->
+            <div class="ct-row-03">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/1.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/2.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/3.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/4.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/5.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/6.jpg">
+                </div>
+
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/7.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/8.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/9.jpg">
+                </div>
+                <!-- col-md-2 -->
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                    <img src="images/link/10.jpg">
+                </div>
+            </div>
+        </div><!-- END Liên Kết Quốc Tế  -->
+    </div>
+</section>
+<!-- End Partners -->
+<!-- Footer -->
+<footer>
+    <div class="footer-widget-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div  class="container-wrapper-widget_text">
+                        <div class="widget-title">
+                            <h4>Hãy Để Chúng Tôi Đồng Hành Cùng Bạn !</h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="textwidget">
+                            <p>Công tác đào tạo, bồi dưỡng nâng cao nghiệp vụ báo chí cho nhà báo Việt Nam trong những năm qua rất chú trọng . Không chỉ cơ quan quản lý nhà nước về báo chí dành thời gian cho công tác này mà hầu hết các cơ quan báo chí cũng rất quan tâm về hoạt động đào tạo cho các phóng viên, nhà báo. </p>
+                            <p> Để báo chí Việt Nam phát triển cả số lượng và chất lượng, nhu cầu đào tạo báo chí vẫn không ngừng được đặt ra.Vậy hướng phát triển mới trong đào tạo báo chí Việt Nam những năm tới sẽ như thế nào? Sau đây là ý kiến của những nhà báo có kinh nghiệm xuất phát nhu cầu tại cơ quan báo chí của mình đưa ra cùng thảo luận.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-menu">
+                        <div class="widget-title">
+                            <h4>Ứng Dụng </h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="footer-menu-container">
+                            <ul>
+                                <li><a href="#">Boostrap</a></li>
+                                <li><a href="#">Javar</a></li>
+                                <li><a href="#">CTC Mobile</a></li>
+                                <li><a href="#">CTC App</a></li>
+                                <li><a href="#">Medscape</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="single-footer-widget">
+                        <div class="widget-title">
+                            <h4>Liên Hệ </h4>
+                        </div>
+                        <div class="footer-separator_left"></div>
+                        <div class="textwidget">
+                            <p>
+                                <span class="fa fa-phone" aria-hidden="true"></span> Tel: 04.320.555<br>
+                                <span class="fa fa-mobile" aria-hidden="true"></span> Mobile: 096.999.888<br>
+                                <span class="fa fa-envelope" aria-hidden="true"></span> E-mail: ctc@fpt.edu.vn
+                            </p>
+                        </div>
+                        <div class="container-wrapper-subscribe-widget">
+                            <form>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-bottom">Nhận Đăng Ký</button>
+                            </form>
+                        </div>
+                        <div class="social-icons">
+                            <a class="facebook" href="https://www.facebook.com/trungtambaodaotaobaochictc"><i class="fa fa-facebook"></i></a>
+                            <a class="envelope" href="#"><i class="fa fa-envelope"></i></a>
+                            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+                            <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-7">
+                    <div class="column-left">
+                        <span>Copyright © Trung Tâm Đào Tạo Báo Chí 2017.All right reserved.Created by <a href="#">MDS</a></span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-5">
+                    <div class="column-right">
+                        <span>Privacy Policy , Terms &amp; Conditions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer><!--End of Footer Widget Area-->
+<!--End Footer Area Start-->
+<!--Start of Chat  Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/592ebfdb4374a471e7c50be0/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+<!-- Jquery -->
+<script src="js/jquery-3.2.1.min.js" rel="stylesheet"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js" rel="stylesheet"></script>
+<script src="js/gsdk-bootstrapswitch.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/conchuot.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/bootstrap-portfilter.min.js"></script>
+
+</body>
+</html>
